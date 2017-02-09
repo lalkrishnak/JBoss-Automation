@@ -1,0 +1,7 @@
+---
+- name: Install and Configure JBoss
+  hosts: localhost
+  connection: local
+  gather_facts: no
+  roles:
+    - jbossconfig
